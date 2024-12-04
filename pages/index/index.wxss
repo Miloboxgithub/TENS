@@ -1,0 +1,117 @@
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  line-height: 39px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  text-align: left;
+  font-family: Ubuntu-bold;
+  margin-top: 25vw;
+  font-weight: 500;
+}
+
+.bg {
+  position: absolute;
+  opacity: 0.3;
+  width: 522px;
+  height: 494px;
+  top: 220px;
+  z-index: -1;
+}
+
+.link {
+  width: 84vw;
+  height: 36px;
+  line-height: 20px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+  border: 1px solid rgba(187, 187, 187, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 51px;
+  opacity: 0.9;
+}
+
+.bobo {
+  margin-top: 39px;
+  width: 84vw;
+  height: 216px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(187, 187, 187, 1);
+  opacity: 0.9;
+  position: relative;
+}
+
+.theme {
+  text-align: center;
+  color: rgba(16, 16, 16, 1);
+  font-size: 17px;
+  font-family: SourceHanSansSC-medium;
+  margin-top: 22px;
+}
+
+.swiper {
+  margin-top: 39px;
+  width: 84vw;
+  height: 178px;
+  border-radius: 10px;
+  /* 确保内容不会溢出 */
+  overflow: hidden;
+}
+
+.swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+/* .screen-swiper {
+  min-height: 375rpx;
+} */
+
+
+/* swiper.round-dot .wx-swiper-dot {
+  width: 10rpx;
+  height: 10rpx;
+  position: relative;
+  margin: 4rpx 8rpx !important;
+}
+
+swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active::after {
+  content: "";
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  top: 0rpx;
+  left: 0rpx;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: var(--white);
+  border-radius: 20rpx;
+}
+
+swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
+  width: 18rpx;
+  height: 18rpx;
+} */
+.sp{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 40px;
+}
+.sp image{
+  height:82.02px;
+  width: 68.75px;
+}

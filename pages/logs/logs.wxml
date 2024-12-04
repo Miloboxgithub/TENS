@@ -1,0 +1,10 @@
+<view class="containers">
+  <image class="theme" src="/static/theme.png"></image>
+  <image class="icon" src="/static/icon.png" mode="" />
+  <view class="half1"></view>
+  <view class="half2"></view>
+  <view class="line"></view>
+  <view class="btn" bind:tap="logins">微信授权登录</view>
+  <!-- <button class="btn">微信授权登录</button> -->
+  <view class="btm">登录/注册表示您同意《用户协议》和《隐私政策》</view>
+</view>

@@ -1,0 +1,24 @@
+<view class="containers">
+  <view class="header">欢迎加入TENS家族</view>
+  <image class="bg" src="/static/icon.png" mode=""/>
+  <view class="link">连接蓝牙</view>
+  <view class="bobo">
+    <view class="theme">请选择一种您喜欢的波形开始体验吧!</view>
+<view class="sp">
+<image src="/static/占位符 1@3x.png" mode=""/>
+<image src="/static/占位符 1 Copy 1@3x.png" mode=""/>
+<image src="/static/占位符 1 Copy 2@3x.png" mode=""/>
+</view>
+  </view>
+    <!-- 轮播图 -->
+    <view class="swiper">
+    <swiper class="screen-swiper round-dot" style="height: 100%;"  indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500"
+        indicator-active-color="rgba(150, 150, 150, 1)">
+      <swiper-item wx:for="{{swiperList}}" wx:key>
+        <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+        <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+      </swiper-item>
+    </swiper>
+  </view>
+
+</view>

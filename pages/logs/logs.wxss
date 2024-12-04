@@ -1,0 +1,87 @@
+.icon {
+  position: absolute;
+  left: 30rpx;
+  top: 382rpx;
+  width: 690rpx;
+  height: 652rpx;
+}
+
+.theme {
+  position: absolute;
+  right: 0;
+  top: 286rpx;
+  width: 544rpx;
+  height: 118rpx;
+}
+
+.half1 {
+  z-index: -1;
+  position: absolute;
+  top: 160rpx;
+  right: -291rpx;
+  width: 582rpx;
+  height: 618rpx;
+  background-color: rgba(239, 239, 239, 0.71);
+  /* 指定的rgba颜色 */
+  border-radius: 50%;
+  /* 设置为圆形 */
+}
+
+.half2 {
+  z-index: -1;
+  position: absolute;
+  top: 708rpx;
+  width: 368rpx;
+  height: 440rpx;
+  left: -220rpx;
+  background-color: rgba(239, 239, 239, 0.71);
+  /* 指定的rgba颜色 */
+  border-radius: 50%;
+  /* 设置为圆形 */
+}
+
+.line {
+  background-color: rgb(231, 230, 230);
+  position: absolute;
+  top: 1034rpx;
+  left: 140rpx;
+  height: 3.4rpx;
+  width: 580rpx;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  /* 从左边向右50% */
+  transform: translate(-50%, -50%);
+  /* 偏移自身50%，实现居中 */
+  top: 1244rpx;
+  width: 660rpx;
+  height: 80rpx;
+  line-height: 23px;
+  border-radius: 100px;
+  background-color: rgba(239, 239, 239, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 1);
+  font-size: 17px;
+  text-align: center;
+  font-weight: 600;
+  font-family: -regular;
+}
+.btm{
+  position: absolute;
+  left: 50%;
+  /* 从左边向右50% */
+  transform: translate(-50%, -50%);
+  /* 偏移自身50%，实现居中 */
+  top: 1377rpx;
+width: 100%;
+  height: 40rpx;
+  line-height: 20px;
+  color: rgba(187,187,187,1);
+  text-align: center;
+  font-size: 14px;
+  font-family: PingFangSC-regular;
+}
